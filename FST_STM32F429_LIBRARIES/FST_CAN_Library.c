@@ -90,7 +90,8 @@ void CAN_SetMsg(CanTxMsg *TxMessage)
 	{
 		TxMessage->Data[ubCounter] = ubCounter;
 	}
-}	
+}
+	
 
 void CAN_Config(void) 
 {
